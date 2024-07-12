@@ -15,24 +15,6 @@ CREATE TABLE llin_distribution (
     Country_code INT                    -- The ISO code of the country
 );
 
--- Insert sample data into the 'llin_distribution' table
-
--- Inserting data for LLIN distribution events
-INSERT INTO llin_distribution (Number_distributed, Location, Country, Period, By_Whom, Country_code)
-VALUES (100, 'Nairobi', 'Kenya', '2023-05-15', 'Red Cross', 254),
-       (150, 'Mombasa', 'Kenya', '2023-06-20', 'UNICEF', 254),
-       (80, 'Kampala', 'Uganda', '2023-07-10', 'WHO', 256),
-       (200, 'Dar es Salaam', 'Tanzania', '2023-08-05', 'Save the Children', 255),
-       (120, 'Kigali', 'Rwanda', '2023-09-15', 'UNHCR', 250);
-
--- Inserting more sample data for LLIN distribution events
-INSERT INTO llin_distribution (Number_distributed, Location, Country, Period, By_Whom, Country_code)
-VALUES (90, 'Addis Ababa', 'Ethiopia', '2023-10-01', 'Red Cross', 251),
-       (180, 'Lusaka', 'Zambia', '2023-11-10', 'UNICEF', 260),
-       (60, 'Harare', 'Zimbabwe', '2023-12-20', 'WHO', 263),
-       (220, 'Maputo', 'Mozambique', '2024-01-05', 'Save the Children', 258),
-       (100, 'Luanda', 'Angola', '2024-02-15', 'UNHCR', 244);
-
 -- Select all records from the 'llin_distribution' table to verify data
 SELECT * FROM llin_analysis.llin_distribution;
 
