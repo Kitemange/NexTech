@@ -39,8 +39,6 @@ This project performs an analysis of Long-Lasting Insecticidal Nets (LLIN) distr
    );
    ```
 
-   ![Database schema visualization](https://via.placeholder.com/300)
-
 ---
 
 ## Descriptive Statistics
@@ -62,7 +60,6 @@ This project performs an analysis of Long-Lasting Insecticidal Nets (LLIN) distr
 
    This query calculates the average number of LLINs distributed per event.
 
-   ![Average LLINs chart](https://via.placeholder.com/300)
 
 3. **Earliest and Latest Distribution Date**:
    ```sql
@@ -92,8 +89,6 @@ This project performs an analysis of Long-Lasting Insecticidal Nets (LLIN) distr
    FROM llin_distribution
    GROUP BY Year;
    ```
-
-   ![Yearly Distribution Trends](https://via.placeholder.com/300)
 
 ---
 
