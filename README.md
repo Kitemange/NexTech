@@ -134,7 +134,7 @@ This project performs an analysis of Long-Lasting Insecticidal Nets (LLIN) distr
 
 ---
 
-##Conclusion
+## Conclusion
 
 1. **Geographic Trends:**  
 LLIN distribution varied significantly across regions. Northern Ghana received 1,093,700 LLINs in 2006, while Nord Ubangi and Kasaï Occidental in Congo saw over 1.3 million LLINs combined in the same year. Uganda had a major distribution in 2007, with over 12.7 million LLINs across its Western and Eastern regions. Zambia and Togo also had large distributions, with over 3 million and 2.4 million LLINs respectively. In contrast, some areas, like Namulonge, Uganda, received as few as 300 LLINs, highlighting disparities in distribution.
